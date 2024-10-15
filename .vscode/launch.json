@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug Unit Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_app.py",  // Point to your test file
+            "console": "integratedTerminal",
+            "env": { "FLASK_ENV": "development" }, // Optional: Set any necessary environment variables
+            "justMyCode": true
+        }
+    ]
+}
